@@ -2,7 +2,7 @@ import React from "react";
 
 const Monologue = () => {
   return (
-    <div className="w-2/3 mx-auto">
+    <div className="w-4/5 md:w-2/3 mx-auto">
       <p className="leading-8 text-xs md:text-normal text-center">
         Oniosun Obafemi is a lover of opportunities and a fast learners who
         believes his dexterity as an actor/screenwriter can take him to the next

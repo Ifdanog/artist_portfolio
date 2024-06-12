@@ -2,7 +2,7 @@ import React from "react";
 
 const Cert = () => {
   return (
-    <div className="w-2/3 mx-auto text center mt-10">
+    <div className="w-4/5 md:w-2/3 mx-auto text center mt-10">
       <p className="leading-8 text-xs md:text-normal text-center">
         He was privilege to be a part of KAP Academy intakes for its online and
         offline courses in a wide arrays of filmmaking in October, 2022. Once

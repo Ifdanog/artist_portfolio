@@ -2,7 +2,7 @@ import React from "react";
 
 const FilmCredit = () => {
   return (
-    <div className="w-2/3 mx-auto">
+    <div className="w-4/5 md:w-2/3 mx-auto">
       <h2 className="font-black text-5xl p-2 text-center">Film Credits</h2>
       <table className="w-full border border-gray-300">
         <thead>

@@ -35,7 +35,7 @@ const Script = () => {
   const handleClosePreview = () => setIsPreviewing(null);
 
   return (
-    <div className="w-[60%] text-center mx-auto">
+    <div className="w-4/5 md:w-2/3 text-center mx-auto">
       {pdfFiles.map((pdfFile, index) => (
         <div key={index} className="mb-4">
           <p>{pdfFile}</p>

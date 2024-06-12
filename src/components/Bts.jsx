@@ -2,7 +2,7 @@ import React from "react";
 
 const Bts = () => {
   return (
-    <div className="w-2/3 mx-auto text center mt-10">
+    <div className="w-4/5 md:w-2/3 mx-auto text center mt-10">
       <p className="leading-8 text-xs md:text-normal text-center">
         He’s been in the filmmaking business for 6 years and he is ready and
         willing to grow and pick up new fortes in his filmmaking journey.

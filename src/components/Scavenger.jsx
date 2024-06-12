@@ -2,7 +2,7 @@ import React from "react";
 
 const Scavenger = () => {
   return (
-    <div className="w-2/3 mx-auto">
+    <div className="w-4/5 md:w-2/3 mx-auto">
       <p className="leading-8 text-xs md:text-normal text-center">
         In 2021, he shot his first ever short movie titled Scavenger (written
         and produced by him) and directed by Olushola Animashaun. The movie is
