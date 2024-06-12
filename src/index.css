@@ -8,10 +8,25 @@
   overflow-x: hidden;
   box-sizing: border-box;
   color: #fff;
+  font-family: "Montserrat";
 }
 
 .bg-heroimage {
-  background-image: url("/public/zas.jpg");
+  position: relative;
+  background-image: url("/zas.jpg");
   background-size: cover;
-  background-position: 0, -2%;
+  background-position-y: 10%;
+}
+
+/* Add the black overlay */
+.bg-heroimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  z-index: 1;
 }
