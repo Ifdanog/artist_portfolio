@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.bg-heroimage {
+  background-image: url("/public/zas.jpg");
+  background-size: cover;
+  background-position: 0, -2%;
+}
