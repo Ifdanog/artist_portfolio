@@ -13,6 +13,9 @@ const Monologue = () => {
         He is a versatile actor who is ready to collaborate and learn more. Here
         are some of his monologues.
       </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <video src="/VID1.mp4"></video>
+      </div>
     </div>
   );
 };
