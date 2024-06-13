@@ -13,22 +13,22 @@ const Hero = () => {
         <h1 className="font-black text-5xl p-2 text-center">Oniosun Obafemi</h1>
         <div className="flex justify-between py-4 w-4/5 md:w-2/3 mx-auto">
         <a href="https://www.tiktok.com/@oba_bisi" target="_blank">
-          <FaTiktok className="w-10 h-10" />
+          <FaTiktok className="w-6 h-6" />
         </a>
         <a href="https://x.com/king_tijesu" target="_blank">
-          <RiTwitterXLine className="w-10 h-10" />
+          <RiTwitterXLine className="w-6 h-6" />
         </a>
         <a href="https://facebook.com/obafemi.adebisi.73" target="_blank">
-          <FaFacebookF className="w-10 h-10" />
+          <FaFacebookF className="w-6 h-6" />
         </a>
         <a href="https://instagram.com/oba_bisi" target="_blank">
-          <FaInstagram className="w-10 h-10" />
+          <FaInstagram className="w-6 h-6" />
         </a>
         <a href="mailto:obafemiadebisi19@gmail.com" target="_blank">
-          <AiOutlineMail className="w-10 h-10" />
+          <AiOutlineMail className="w-6 h-6" />
         </a>
         <a href="tel:+2349130696617" target="_blank">
-          <FaPhoneAlt className="w-10 h-10" />
+          <FaPhoneAlt className="w-6 h-6" />
         </a>
       </div>
         <p className="leading-8 text-xs md:text-normal">
