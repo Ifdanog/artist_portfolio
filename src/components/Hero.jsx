@@ -9,8 +9,9 @@ const Hero = () => {
   return (
     <div className="p-6 flex justify-center items-center">
       <div className="w-full md:w-2/3">
-        <div className="w-full h-[30rem] bg-heroimage">
-        <div className="flex justify-between py-4 w-4/5 md:w-2/3 mx-auto absolute bottom-0 left-[15%] z-10">
+        <div className="w-full h-[30rem] bg-heroimage"></div>
+        <h1 className="font-black text-5xl p-2 text-center">Oniosun Obafemi</h1>
+        <div className="flex justify-between py-4 w-4/5 md:w-2/3 mx-auto">
         <a href="https://www.tiktok.com/@oba_bisi" target="_blank">
           <FaTiktok className="w-10 h-10" />
         </a>
@@ -30,8 +31,6 @@ const Hero = () => {
           <FaPhoneAlt className="w-10 h-10" />
         </a>
       </div>
-        </div>
-        <h1 className="font-black text-5xl p-2 text-center">Oniosun Obafemi</h1>
         <p className="leading-8 text-xs md:text-normal">
           Oniosun Obafemi is an open minded individual with great social skills.
           He is a trained actor, screenwriter, make up artist, decorator and
