@@ -4,7 +4,7 @@ const FilmCredit = () => {
   return (
     <div className="w-4/5 md:w-2/3 mx-auto">
       <h2 className="font-black text-5xl p-2 text-center">Film Credits</h2>
-      <table className="w-full border border-gray-300">
+      <table className="text-xs w-full border border-gray-300">
         <thead>
           <tr>
             <th className="border border-gray-300 p-2">Role</th>

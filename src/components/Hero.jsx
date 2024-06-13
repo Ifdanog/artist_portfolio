@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-full p-6 bg-black flex justify-center items-center">
-      <div className="w-4/5 md:w-2/3">
+    <div className="p-6 bg-black flex justify-center items-center">
+      <div className="w-full md:w-2/3">
         <div className="w-full h-[30rem] bg-heroimage"></div>
         <h1 className="font-black text-5xl p-2 text-center">Oniosun Obafemi</h1>
         <p className="leading-8 text-xs md:text-normal">
