@@ -14,7 +14,12 @@ const Monologue = () => {
         are some of his monologues.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <video src="/VID1.mp4"></video>
+        <video src="/VID1.mp4" controls></video>
+        <video src="/VID2.mp4" controls></video>
+        <video src="/VID3.mp4" controls></video>
+        <video src="/VID4.mp4" controls></video>
+        <video src="/VID5.mp4" controls></video>
+        <video src="/VID6.mp4" controls></video>
       </div>
     </div>
   );

@@ -11,6 +11,31 @@
   font-family: "Montserrat";
 }
 
+/* App.css */
+.bg-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url('/DSC_8458.jpg') center/cover no-repeat;
+}
+
+.bg-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+
 .bg-heroimage {
   position: relative;
   background-image: url("/zas.jpg");
@@ -18,7 +43,6 @@
   background-position-y: 10%;
 }
 
-/* Add the black overlay */
 .bg-heroimage::before {
   content: "";
   position: absolute;
@@ -26,7 +50,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
   z-index: 1;
 }
